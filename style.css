@@ -1,0 +1,157 @@
+body {
+    background-color: #F9F9F9;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    min-height: 100vh;
+    width: 70vw;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h1 {
+    color:#161513;
+    font-size: 26px;
+}
+
+h2 {
+    color: #011638;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    width:170px;
+    height: 300px;
+}
+
+figcaption, .names {
+    font-style:italic;
+    font-family: Optima, sans-serif;
+}
+
+
+
+/* navigation styling section*/
+.nav-container {
+    display: flex;
+    width:100%;
+    position:fixed;
+    top:0;
+    background-color: #F5F5F5;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    color: #255957;
+}
+
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 10px;
+}
+
+
+.navigation-option {
+    margin: 5px 15px;
+}
+
+#logo {
+    margin: 15px 10px;
+}
+
+/* main content styling section */
+.main-content{
+  position: absolute;
+  top: 10%;
+  margin: auto 15%;
+}
+
+
+.about-me-container {
+    display: flex;
+    margin: 20px 20px; 
+    padding: 5px 5px;
+    flex-direction: column;
+   
+}
+
+.skills-container{
+    display: flex;
+    margin: 20px 20px; 
+    padding: 5px 5px;
+    flex-direction: column;
+}
+
+.projects-container {
+    display: flex; 
+    margin: 20px 20px 100px 20px; 
+    padding: 5px 5px;
+    flex-direction: column;
+}
+
+
+/* footer styling section*/
+.footer-container{
+    background-color: #F5F5F5;
+    margin-top: auto;
+    text-align: center;
+    width:100%;
+    position:fixed;
+    bottom:0;
+}
+
+
+/*responsiveness - media queries */
+
+/*between desktop and tablets*/
+@media only screen and (min-width:421px) and (max-width: 1280px)  {
+    h1 {
+        font-size: 22px;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    img {
+        width: 120px;
+        height: 220px;
+    }
+}
+
+/*mobile*/
+@media only screen and (max-width: 420px)  {
+    h1 {
+        font-size: 18px;
+    }
+    
+    h2 {
+        font-size: 16px;
+    }
+    
+    p {
+        font-size: 12px;
+    }
+    
+    img {
+        width: 80px;
+        height: 100px;
+    }
+    
+}

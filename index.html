@@ -3,35 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>My portfolio website</title>
 </head>
 <body>
-    <nav style="background-color: whitesmoke;">
+    <nav class="nav-container">
         <h1 id="logo">Karolina Machnik</h1>
         <ul class="navigation">
             <li class="navigation-option"><a href="#about-me">About Me</a></li>
             <li class="navigation-option"><a href="#skills">Skills and experience</a></li>
             <li class="navigation-option"><a href="#projects">My projects</a></li>
-            <li class="navigation-option"><a href="#contact">Contacts</a></li>
+            <li class="navigation-option"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <main >
-        <section id="about-me">
+    <main class="main-content">
+        <section id="about-me" class="about-me-container">
             <div>
                 <h2>About me</h2>
                 <p>Hello, I'm Karolina but everyone calls me Karola! I'm from Bielsko-Biała in Poland, but I currently live in Kraków. I think this the perfect city to experience life with its rich culture, various attractions and beautiful architecture. I studied Social Informatics at the AGH University with specialization in Design and Product Development.
-                    My bachelor's thesis title was <em>"Moodpal - a project of a mood monitoring application for people suffering from depression and experiencing low mood"</em>, and my master's thesis title was <em>Practical application of the design process and heuristics
+                    My bachelor's thesis title was <em class="names">"Moodpal - a project of a mood monitoring application for people suffering from depression and experiencing low mood"</em>, and my master's thesis title was <em class="names">Practical application of the design process and heuristics
                         Nielsen in the work of web designers.</em> I'm learning how to code websites, while applying good UX practices I learned at University and also SEO skills I got from my current job.
                 </p>
                 <p>In my freetime I really enjoy visiting new places, trying new recipes, reading books and watching tv shows. My favorite tv show at this moment is Ted Lasso, which I find funny but also really educational. I also enjoy running, but I'm learning how to di this again due to knees problems. </p>
                 <p><strong>Fun fact:</strong> I was born on friday!</p>
                 <figure>
-                    <img src="">
+                    <img id="pic" src="/Users/karolina/Desktop/portfolio_project/pic.jpeg">
                     <figcaption>This is me</figcaption>
                 </figure>
             </div>
         </section>
-        <section id="skills">
+        <section id="skills" class="skills-container">
             <div>
                 <h2>My skills and experience</h2>
                 <details>
@@ -54,13 +55,9 @@
                     <summary>SEO</summary>
                     <p>I am currently working in SEO, so I know what google algoritms look for in a website and it's code. If the code is well optimized, the alrotim willposition it higher, so it's also important when creating a website.</p>
                 </details>
-                <details>
-                    <summary>Academic</summary>
-                    <p>I am currently working in SEO, so I know what google algoritms look for in a website and it's code. If the code is well optimized, the alrotim willposition it higher, so it's also important when creating a website.</p>
-                </details>
             </div>
         </section>
-        <section id="#projects">
+        <section id="#projects" class="projects-container">
             <div>
                 <h2>My projects</h2>
                 <p>To be updated.. :)</p>
@@ -68,9 +65,10 @@
         </section>
         
     </main>
-    <footer>
-        <p style="background-color: whitesmoke;">Beginner at programming based in Kraków, Poland</p>
+    <footer class="footer-container">
+        <p>Beginner at programming based in Kraków, Poland</p>
     </footer>
     
 </body>
+<script src="script.js"></script>
 </html>
