@@ -74,32 +74,20 @@ nav a{
 /* main content styling section */
 .main-content{
   position: absolute;
-  top: 10%;
-  margin: auto 15%;
+  top: 8%;
+  margin: 0 50px; 
+  padding: 0 5px;
 }
 
 
-.about-me-container {
+.container {
     display: flex;
-    margin: 20px 20px; 
-    padding: 5px 5px;
     flex-direction: column;
+    margin: 20px 50px; 
+    padding: 5px 5px;
    
 }
 
-.skills-container{
-    display: flex;
-    margin: 20px 20px; 
-    padding: 5px 5px;
-    flex-direction: column;
-}
-
-.projects-container {
-    display: flex; 
-    margin: 20px 20px 100px 20px; 
-    padding: 5px 5px;
-    flex-direction: column;
-}
 
 
 /* footer styling section*/
