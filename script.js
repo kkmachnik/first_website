@@ -20,7 +20,7 @@ for (let i = 0; i < navButtons.length; i++) {
         navButtons[i].style.color = "blue";
     });
 
-    navButtons[i].addEventListener("mouseoutr", event=> {
+    navButtons[i].addEventListener("mouseout", event => {
         navButtons[i].style.color = "#255957";
     });
 }
