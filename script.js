@@ -1,4 +1,4 @@
-let myImg = document.getElementById("pic");
+const myImg = document.getElementById("pic");
 
 function zoomIn(){
     let currentWidth = myImg.clientWidth;
@@ -13,3 +13,15 @@ function zoomIn(){
 }
 
 myImg.onclick = zoomIn;
+
+const navButton = document.getElementsByClassName("navigation-option");
+navButton.addEventListener("mouseover", event=> {
+    navButton.style.color = "blue";
+});
+
+navButton.addEventListener("mouseoutr", event=> {
+    navButton.style.color = "#255957";
+});
+
+
+
