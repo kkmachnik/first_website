@@ -14,14 +14,15 @@ function zoomIn(){
 
 myImg.onclick = zoomIn;
 
-const navButton = document.getElementsByClassName("navigation-option");
-navButton.addEventListener("mouseover", event=> {
-    navButton.style.color = "blue";
-});
+const navButtons = document.getElementsByClassName("navigation-option");
+for (let i = 0; i < navButtons.length; i++) {
+    navButtons[i].addEventListener("mouseover", event => {
+        navButtons[i].style.color = "blue";
+    });
 
-navButton.addEventListener("mouseoutr", event=> {
-    navButton.style.color = "#255957";
-});
-
+    navButtons[i].addEventListener("mouseoutr", event=> {
+        navButtons[i].style.color = "#255957";
+    });
+}
 
 
