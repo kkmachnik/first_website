@@ -35,8 +35,8 @@ Array.from(sections).forEach(section => {
            const sectionTop = section.offsetTop + window.scrollY;
 
             window.scroll({
-                top: sectionTop,
+                top: sectionTop - 100,
                 behavior: 'smooth'
             })
-    });
+    })
 });
