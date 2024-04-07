@@ -11,7 +11,6 @@ function zoomIn(){
 
     
 }
-
 myImg.onclick = zoomIn;
 
 
@@ -27,3 +26,17 @@ for (let i = 0; i < navButtons.length; i++) {
 }
 
 
+
+
+const sections = document.getElementsByClassName("container");
+
+Array.from(sections).forEach(section => {
+    section.addEventListener("click", function() {
+           // const sectionTop = section.offsetTop + window.scrollY;
+
+            window.scroll({
+                top: sectionTop,
+                behavior: 'smooth'
+            })
+    });
+});
