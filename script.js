@@ -14,7 +14,8 @@ function zoomIn(){
 
 myImg.onclick = zoomIn;
 
-const navButtons = document.getElementsByClassName("navigation-option");
+/*
+const navButtons = document.getElementsByClassName("navigation");
 for (let i = 0; i < navButtons.length; i++) {
     navButtons[i].addEventListener("mouseover", event => {
         navButtons[i].style.color = "blue";
@@ -24,5 +25,19 @@ for (let i = 0; i < navButtons.length; i++) {
         navButtons[i].style.color = "#255957";
     });
 }
+*/
 
+const navItems = document.querySelectorAll('nav a');
+
+navItems.forEach(item => {
+  item.addEventListener('mouseover', function(e) {
+    e.target.style.color = 'pink';
+  });
+
+  item.addEventListener('mouseout', function(e) {
+    e.target.style.color = '#255957';
+  });
+
+
+});
 
