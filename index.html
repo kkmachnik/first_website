@@ -3,23 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="I'm asprining junior front-end developer with passion for great UX and desire to work on ambitious projects!">
+    <meta name="Title" content="Karolina Machnik | Junior front-end developer">
     <link rel="stylesheet" href="style.css">
-    <title>My portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Karolina Machnik - portfolio</title>
 </head>
 <body>
     <nav class="nav-container">
-        <h1 id="logo">Karolina Machnik</h1>
+        <p id="logo" class="logo"><a href="#hero">Karolina Machnik</a></p>
         <ul class="navigation">
             <li class="navigation-option"><a href="#about-me">About Me</a></li>
             <li class="navigation-option"><a href="#skills">Skills and experience</a></li>
             <li class="navigation-option"><a href="#projects">My projects</a></li>
-            <li class="navigation-option"><a href="contact.html">Contact</a></li>
+            <li class="navigation-option-contact"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
    
     <main class="main-content">
-        <section id="about-me" class="container">
-            <div>
+        <section id="hero">
+            <div class="hero-container">
+                <h1 class="hero">Hi, I'm Karolina </h1>
+                <h2 class="hero">Aspiring front-end developer</h2>
+                <button id="button-hero" class="hero"><a href="#about-me">About Me</a></button>
+            </div>
+        </section>
+
+        <section id="about-me">
+            <div class="container">
                 <h2>About me</h2>
                 <p>Hello, I'm Karolina but everyone calls me Karola! I'm from Bielsko-Biała in Poland, but I currently live in Kraków. I think this the perfect city to experience life with its rich culture, various attractions and beautiful architecture. I studied Social Informatics at the AGH University with specialization in Design and Product Development.
                     My bachelor's thesis title was <em class="names">"Moodpal - a project of a mood monitoring application for people suffering from depression and experiencing low mood"</em>, and my master's thesis title was <em class="names">Practical application of the design process and heuristics
@@ -33,8 +49,8 @@
                 </figure>
             </div>
         </section>
-        <section id="skills" class="container">
-            <div>
+        <section id="skills">
+            <div class="container">
                 <h2>My skills and experience</h2>
                 <details>
                     <summary>HTML, CSS and basic JavaScript</summary>
@@ -58,8 +74,8 @@
                 </details>
             </div>
         </section>
-        <section id="projects" class="container">
-            <div>
+        <section id="projects">
+            <div class="container">
                 <h2>My projects</h2>
                 <p>To be updated.. :)</p>
 

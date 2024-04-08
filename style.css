@@ -1,29 +1,49 @@
+
 body {
-    background-color: #F9F9F9;
+    background-color: #181C25;
     margin: 0;
-    font-family: Helvetica, sans-serif;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
     min-height: 100vh;
     width: 70vw;
     text-align: justify;
     text-justify: inter-word;
 }
 
-h1 {
+.logo {
     color:#161513;
     font-size: 26px;
 }
 
+h1 {
+    color:#8F6593;
+    font-size: 48px;
+    font-family: "Playfair Display";
+    font-weight: 400;
+}
+
+
 h2 {
-    color: #011638;
+    color: #CDCDCD;
     font-size: 22px;
+    font-family: "Playfair Display";
+    font-weight: 400;
+
 }
 
 a {
     text-decoration: none;
+    color: #8F6593;
+
 }
 
 p {
     font-size: 16px;
+    color:#E3E4DB;
+}
+
+h3, summary {
+    color: #E3E4DB;
 }
 
 img {
@@ -33,7 +53,7 @@ img {
 
 figcaption, .names {
     font-style:italic;
-    font-family: Optima, sans-serif;
+    font-family: Lato;
 }
 
 
@@ -44,14 +64,17 @@ figcaption, .names {
     width:100%;
     position:fixed;
     top:0;
-    background-color: #F5F5F5;
+    background-color: #101319;
     z-index: 1;
     justify-content: space-between;
     align-items: center;
 }
 
 nav a{
-    color: #255957;
+    color: #8F6593;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+
 }
 
 
@@ -63,7 +86,7 @@ nav a{
 }
 
 
-.navigation-option {
+.navigation-option, .navigation-option-contact{
     margin: 5px 15px;
 }
 
@@ -72,6 +95,10 @@ nav a{
 }
 
 /* main content styling section */
+section {
+    height: 100vh;    
+}
+
 .main-content{
   position: absolute;
   top: 8%;
@@ -79,20 +106,56 @@ nav a{
   padding: 0 5px;
 }
 
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px auto; 
+    padding: 5px;
+}
+
+.hero-container h2{
+    font-size: 34px;
+    font-family: Lato;
+    font-weight: 300;
+}
+
+.hero h1, h2{
+    margin: 30px auto; 
+}
+
+button.hero {
+    margin: 400px auto 30px auto; 
+    background-color: #8F6593;
+
+}
+
+button a{
+    color:#E3E4DB;
+}
 
 .container {
     display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
     flex-direction: column;
     margin: 20px 50px; 
-    padding: 5px 5px;
-   
+    padding: 5px;
+    
 }
 
+#contact li {
+    color:#CDCDCD
+ }
 
 
 /* footer styling section*/
 .footer-container{
-    background-color: #F5F5F5;
+    background-color: #101319;
+    
     margin-top: auto;
     text-align: center;
     width:100%;
@@ -100,6 +163,9 @@ nav a{
     bottom:0;
 }
 
+footer p  {
+    color: #AEA4BF;
+}
 
 /*responsiveness - media queries */
 
