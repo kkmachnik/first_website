@@ -1,4 +1,5 @@
 
+
 body {
     background-color: #181C25;
     margin: 0;
@@ -17,7 +18,7 @@ body {
 
 h1 {
     color:#8F6593;
-    font-size: 48px;
+    font-size: 62px;
     font-family: "Playfair Display";
     font-weight: 400;
 }
@@ -96,7 +97,7 @@ nav a{
 
 /* main content styling section */
 section {
-    height: 100vh;    
+    height: 90vh;    
 }
 
 .main-content{
@@ -112,28 +113,28 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 20px auto; 
+    margin: 0 auto; 
     padding: 5px;
 }
 
 .hero-container h2{
-    font-size: 34px;
+    font-size: 32px;
     font-family: Lato;
     font-weight: 300;
 }
 
-.hero h1, h2{
-    margin: 30px auto; 
-}
+
 
 button.hero {
-    margin: 400px auto 30px auto; 
     background-color: #8F6593;
+    margin: 20px auto; 
 
+    border-radius: 30px;
 }
 
 button a{
     color:#E3E4DB;
+    padding:15px;
 }
 
 .container {
@@ -142,7 +143,7 @@ button a{
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 20px 50px; 
+    margin: 0 50px; 
     padding: 5px;
     
 }

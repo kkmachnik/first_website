@@ -41,7 +41,7 @@ function sectionScroll(id, offset) {
 function navScrollHandler(event) {
     event.preventDefault();
     const id = this.querySelector('a').getAttribute('href').replace("#", "");
-    const offset = -50;
+    const offset = -80;
     sectionScroll(id, offset);
 };
 
