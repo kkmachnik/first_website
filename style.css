@@ -147,21 +147,12 @@ button a{
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 0 100px; 
+    margin: 10px 70px; 
     padding: 5px;
     
 }
 
-.container-about {
-    display: flex;
-    align-items:flex-start;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin: 0 100px; 
-    padding: 5px;
-    
-}
+
 
 figure {
     float: left;
