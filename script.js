@@ -1,4 +1,6 @@
-/*const myImg = document.getElementById("pic");
+/*function to zoom in on pic 
+
+const myImg = document.getElementById("pic");
 
 function zoomIn(){
     let currentWidth = myImg.clientWidth;
@@ -13,6 +15,7 @@ function zoomIn(){
 }
 myImg.onclick = zoomIn;
 */
+
 
 const navButtons = document.getElementsByClassName("navigation-option");
 
