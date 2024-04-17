@@ -149,7 +149,12 @@ button a{
     flex-direction: column;
     margin: 10px 70px; 
     padding: 5px;
-    
+}
+
+.container-about {
+    display: block;
+    margin: 10px 70px; 
+    padding: 5px;
 }
 
 
