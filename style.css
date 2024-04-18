@@ -90,9 +90,11 @@ nav a{
     color: #8F6593;
     font-family: Inter, sans-serif;
     font-weight: 400;
-
 }
 
+nav li {
+    text-align: center;
+}
 
 .navigation {
     list-style-type: none;
@@ -255,6 +257,7 @@ footer p  {
 }
 
 /*mobile medium*/
+/* tutaj hamburger menu i ni*/
 @media only screen and (min-width:461px) and (max-width: 870px)  {
   h1 {
         font-size: 34px;
